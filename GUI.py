@@ -253,7 +253,7 @@ class VisualizedBoard:
 				f=tk.Frame(self.root)
 				tk.Label(f,
 				         text='Solution found. Continue showing steps.').grid(row=0,column=0)
-				tk.Label(f,text='This process should take no more than 10 seconds.').grid(row=1)
+				tk.Label(f,text='This process normally should take no more than 10 seconds.').grid(row=1)
 				tk.Button(f,text='Jump to solution',command=go_to_solution).grid(row=0,column=1,rowspan=2)
 				f.pack()
 			else:

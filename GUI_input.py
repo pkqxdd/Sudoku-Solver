@@ -8,6 +8,8 @@ if __name__ == '__main__':
 	canvas = tk.Canvas(root, width=501, height=501,borderwidth=0,bg='white',highlightthickness=0)
 
 	def validate_entry(text):
+		if text=='':
+			return True
 		try:
 			int(text)
 		except ValueError:
