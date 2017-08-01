@@ -1,7 +1,8 @@
 import tkinter as tk
 from main import main
 import time
-if __name__ == '__main__':
+
+def GUI_input():
 	root = tk.Tk()
 	root.title('Sudoku input')
 
@@ -24,7 +25,7 @@ if __name__ == '__main__':
 		input_string=''.join([e.get() if e.get() != '' else '0' for e in entries])
 		root.destroy()
 		time.sleep(1.5)
-		main(input_string,True)
+		print(main(input_string,True))
 
 	v=root.register(validate_entry)
 
@@ -52,4 +53,5 @@ if __name__ == '__main__':
 	root.geometry('550x550+%d+%d' % ((root.winfo_screenwidth() - 550) // 2, (root.winfo_screenheight() - 550) // 2))
 	root.mainloop()
 
-
+if __name__ =='__main__':
+	GUI_input()
