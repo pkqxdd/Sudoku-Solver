@@ -1,6 +1,7 @@
-<img src="https://github.com/favicon.ico" width="48">
 # Introduction
-Sudoku Solver is a project inspired by a class project of ColumbiaX - CSMM.101x (Artificial Intelligence). In this project, students were asked to find the solution of any solvable sudoku problems using a tree search algorithm – backtracking search. On the top of a successfully finished project (my implementation took 7 seconds to solve the "world's hardest soduku problem," and 0.05s - 2s for regular sudoku problems), I implemented a GUI for it. Instead of entering a long string into console and read the output, users can input to and read the output from an actual soduku board. 
+  Sudoku Solver is a project inspired by a class project of ColumbiaX - CSMM.101x (Artificial Intelligence). In this project, students were asked to find the solution of any solvable sudoku problems using a tree search algorithm – backtracking search. 
+
+  On the top of a successfully finished project (my implementation took 7 seconds to solve the "world's hardest soduku problem," and 0.05s - 2s for regular sudoku problems), I implemented a GUI for it. Instead of entering a long string into console and read the output, users can input to and read the output from an actual soduku board. 
 
 ![](img/1.png)
 
